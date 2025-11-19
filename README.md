@@ -73,15 +73,19 @@ http://localhost:3000
 Copiar código
 npm run build
 ```
-📸 Capturas de Pantalla
-🏠 Página de Inicio
-<img src="./screenshots/inicio.png" width="600" />
-🌙 Modo Oscuro
-<img src="./screenshots/oscuro.png" width="600" />
-🍽️ Listado de Recetas
-<img src="./screenshots/recetotas.png" width="600" />
-📄 Detalle de Receta
-<img src="./screenshots/receta.png" width="600" />
-📱 Vista Responsive
-<img src="./screenshots/responsive.png" width="600" />
-📦 Estado del Proyecto
+## 📸 Capturas de Pantalla
+
+### 🏠 Página de Inicio  
+<img src="./public/screenshots/inicio.png" width="600" />
+
+### 🌙 Modo Oscuro  
+<img src="./public/screenshots/oscuro.png" width="600" />
+
+### 🍽️ Listado de Recetas  
+<img src="./public/screenshots/recetotas.png" width="600" />
+
+### 📄 Detalle de Receta  
+<img src="./public/screenshots/receta.png" width="600" />
+
+### 📱 Vista Responsive  
+<img src="./public/screenshots/responsive.png" width="600" />
