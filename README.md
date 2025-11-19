@@ -22,7 +22,7 @@ Desarrollado por Franco Sciascia 👨‍🍳.
 ---
 
 ## 🧱 Estructura del Proyecto
-
+```bash
 src/
 ├── App.jsx
 ├── main.jsx
@@ -45,7 +45,7 @@ src/
 ├── data/
 │ └── recetas.json
 └── styles.css
-
+```
 🛠️ Tecnologías Utilizadas
 
 React 19
@@ -66,7 +66,7 @@ npm install
 Copiar código
 npm run dev
 Abrir en el navegador:
-http://localhost:5173
+http://localhost:3000
 ```
 3️⃣ Build de producción
 ```bash
