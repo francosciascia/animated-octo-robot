@@ -11,15 +11,15 @@ Desarrollado por **Franco Sciascia 👨‍🍳**.
 
 ✔️ Listado de recetas con tarjetas responsivas  
 ✔️ Vista de detalle con ingredientes y pasos  
-✔️ Carga global de datos con **Context API**  
-✔️ Navegación con **React Router DOM**  
+✔️ Carga global de datos con Context API  
+✔️ Navegación con React Router DOM  
 ✔️ Buscador de recetas por título  
 ✔️ Filtros por categoría y dificultad  
-✔️ Modo **oscuro/claro** (Dark Mode)  
-✔️ Botón “Compartir” que copia el link  
+✔️ Modo oscuro/claro  
+✔️ Botón “Compartir”  
 ✔️ Página de Inicio  
 ✔️ Footer informativo  
-✔️ Diseño completo con Material UI y 100% responsive  
+✔️ 100% responsive  
 
 ---
 
@@ -73,11 +73,10 @@ npm install
 bash
 Copiar código
 npm run dev
-3️⃣ Abrir en el navegador
-arduino
-Copiar código
+Abrir en el navegador:
 http://localhost:5173
-4️⃣ Crear build de producción
+
+3️⃣ Build de producción
 bash
 Copiar código
 npm run build
