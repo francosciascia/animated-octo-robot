@@ -1,70 +1,105 @@
-# Trabajo Práctico – Aplicación de Recetas de Cocina
+# 🍽️ Recetas Franco – Aplicación de Recetas de Cocina
 
-Aplicación React que muestra un catálogo de recetas y permite navegar hacia el detalle de cada una utilizando React Router DOM, Context API y Material-UI.
+Aplicación web creada para el **Trabajo Práctico de Programación IV (UTN)**.  
+Permite explorar un catálogo de recetas, ver el detalle completo, filtrar, buscar y navegar entre páginas con un diseño moderno usando **Material UI**.
 
-## 🚀 Características
-- Listado de recetas con tarjetas responsive, chips informativos y acciones claras.
-- Vista de detalle con imagen destacada, ingredientes estructurados y pasos enumerados.
-- Context API para compartir el estado (recetas, loading y manejo de errores) en toda la app.
-- Datos locales en `src/data/recetas.json` (6 recetas completas).
-- Navegación con rutas `/`, `/recetas` y `/recetas/:id`.
-- Diseño responsive con componentes de Material-UI (Container, Grid, Card, Stack, List, etc.).
+Desarrollado por **Franco Sciascia 👨‍🍳**.
 
-## 🧱 Estructura Principal
-```
+---
+
+## 🚀 Funcionalidades Principales
+
+✔️ Listado de recetas con tarjetas responsivas  
+✔️ Vista de detalle con ingredientes y pasos  
+✔️ Carga global de datos con **Context API**  
+✔️ Navegación con **React Router DOM**  
+✔️ Buscador de recetas por título  
+✔️ Filtros por categoría y dificultad  
+✔️ Modo **oscuro/claro** (Dark Mode)  
+✔️ Botón “Compartir” que copia el link  
+✔️ Página de Inicio  
+✔️ Footer informativo  
+✔️ Diseño completo con Material UI y 100% responsive  
+
+---
+
+## 🧱 Estructura del Proyecto
+
 src/
 ├── App.jsx
 ├── main.jsx
 ├── components/
-│   ├── layout/Navbar.jsx
-│   └── recetas/
-│       ├── RecetaCard.jsx
-│       ├── RecetasList.jsx
-│       ├── RecetaDetalle.jsx
-│       └── IngredientesList.jsx
-├── contexts/RecetasContext.jsx
-├── data/recetas.json
+│ ├── layout/
+│ │ ├── Navbar.jsx
+│ │ └── Footer.jsx
+│ └── recetas/
+│ ├── RecetaCard.jsx
+│ ├── RecetasList.jsx
+│ ├── RecetaDetalle.jsx
+│ └── IngredientesList.jsx
+├── contexts/
+│ ├── RecetasContext.jsx
+│ └── ThemeContext.jsx
 ├── pages/
-│   ├── RecetasListPage.jsx
-│   └── RecetaDetallePage.jsx
+│ ├── InicioPage.jsx
+│ ├── RecetasListPage.jsx
+│ └── RecetaDetallePage.jsx
+├── data/
+│ └── recetas.json
 └── styles.css
-```
 
-## 🛠️ Tecnologías
-- React 19
-- React Router DOM 7
-- Context API
-- Material-UI 7 + Emotion
-
-## ▶️ Scripts Disponibles
-Instalar dependencias:
-```
-npm install
-```
-
-Iniciar el entorno de desarrollo:
-```
-npm start
-```
-
-Construir para producción:
-```
-npm run build
-```
-
-## ✅ Estado
-Proyecto completo y listo para evaluación del Trabajo Práctico de Programación IV.
+yaml
+Copiar código
 
 ---
 
-## Screenshots
+## 🛠️ Tecnologías Utilizadas
 
-### Página de Inicio
-![Inicio](public/screenshots/inicio.png)
+- React 19  
+- React Router DOM 7  
+- Material UI 7  
+- Context API  
+- Vite  
+- JavaScript moderno  
 
-### Listado de Recetas
-![Listado de recetas](public/screenshots/listado-recetas.png)
+---
 
-### Detalle de Receta
-![Detalle de receta](public/screenshots/detalle-receta.png)
-Desarrollado por Franco Sciascia 👨‍🍳
+## ▶️ Cómo Ejecutarlo
+
+### 1️⃣ Instalar dependencias
+```bash
+npm install
+2️⃣ Iniciar el entorno de desarrollo
+bash
+Copiar código
+npm run dev
+3️⃣ Abrir en el navegador
+arduino
+Copiar código
+http://localhost:5173
+4️⃣ Crear build de producción
+bash
+Copiar código
+npm run build
+📸 Capturas de Pantalla
+🏠 Página de Inicio
+<img src="./screenshots/inicio.png" width="600" />
+🌙 Modo Oscuro
+<img src="./screenshots/oscuro.png" width="600" />
+🍽️ Listado de Recetas
+<img src="./screenshots/recetotas.png" width="600" />
+📄 Detalle de una Receta
+<img src="./screenshots/receta.png" width="600" />
+📱 Diseño Responsive
+<img src="./screenshots/responsive.png" width="600" />
+📦 Estado del Proyecto
+✔️ Completo y funcional
+✔️ Cumple todos los requisitos del TP
+✔️ Incluye funcionalidades extra
+
+👨‍💻 Autor
+Franco Sciascia
+GitHub: https://github.com/francosciascia
+
+📄 Licencia
+Proyecto de uso académico.
