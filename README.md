@@ -7,17 +7,17 @@ Desarrollado por Franco Sciascia 👨‍🍳.
 
 🚀 Funcionalidades Principales
 
-✔️ Listado de recetas con tarjetas responsivas
-✔️ Vista de detalle con ingredientes y pasos
-✔️ Carga global de datos con Context API
-✔️ Navegación con React Router DOM
-✔️ Buscador de recetas por título
-✔️ Filtros por categoría y dificultad
-✔️ Modo oscuro / claro
-✔️ Botón Compartir Receta
-✔️ Página de Inicio personalizada
-✔️ Footer informativo
-✔️ 100% responsive
+- Listado de recetas con tarjetas responsivas
+- Vista de detalle con ingredientes y pasos
+- Carga global de datos con Context API
+- Navegación con React Router DOM
+- Buscador de recetas por título
+- Filtros por categoría y dificultad
+- Modo oscuro / claro
+- Botón Compartir Receta
+- Página de Inicio personalizada
+- Footer informativo
+- 100% responsive
 
 ---
 
