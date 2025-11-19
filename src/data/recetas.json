@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "titulo": "Milanesas con Puré",
+    "descripcion": "Clásico argentino: carne empanada crocante con puré casero.",
+    "categoria": "Platos Principales",
+    "dificultad": "Fácil",
+    "tiempoPreparacion": "35 minutos",
+    "porciones": 2,
+    "imagen": "/images/milanesaconpure.jpeg",
+    "ingredientes": [
+      { "cantidad": "4", "unidad": "fetas", "nombre": "Carne para milanesa" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "1", "unidad": "taza", "nombre": "Pan rallado" },
+      { "cantidad": "1", "unidad": "cda", "nombre": "Ajo y perejil" },
+      { "cantidad": "3", "unidad": "unidades", "nombre": "Papas" },
+      { "cantidad": "1", "unidad": "cda", "nombre": "Manteca" },
+      { "cantidad": "1", "unidad": "chorrito", "nombre": "Leche" },
+      { "cantidad": "", "unidad": "c/n", "nombre": "Aceite" }
+    ],
+    "pasos": [
+      "Batir los huevos con sal, pimienta, ajo y perejil.",
+      "Empanar la carne pasándola por huevo y luego pan rallado.",
+      "Freír u hornear hasta dorar.",
+      "Hervir las papas y pisarlas con manteca y leche.",
+      "Servir las milanesas con el puré."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 2,
+    "titulo": "Empanadas Criollas",
+    "descripcion": "Empanadas tradicionales de carne jugosa con huevo y aceitunas.",
+    "categoria": "Platos Principales",
+    "dificultad": "Media",
+    "tiempoPreparacion": "60 minutos",
+    "porciones": 12,
+    "imagen": "/images/empanadascriollas.jpg",
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Carne picada" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Cebolla" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Morrón" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Huevo duro" },
+      { "cantidad": "1/4", "unidad": "taza", "nombre": "Aceitunas verdes" },
+      { "cantidad": "", "unidad": "a gusto", "nombre": "Comino y pimentón" },
+      { "cantidad": "12", "unidad": "unidades", "nombre": "Tapas de empanadas" }
+    ],
+    "pasos": [
+      "Saltear cebolla y morrón.",
+      "Agregar carne y condimentos.",
+      "Dejar enfriar y mezclar con huevo duro y aceitunas.",
+      "Rellenar las tapas.",
+      "Hornear 20 minutos a 200°C."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 3,
+    "titulo": "Locro",
+    "descripcion": "Guiso patrio espeso con maíz, zapallo, cerdo y chorizo.",
+    "categoria": "Platos Principales",
+    "dificultad": "Media",
+    "tiempoPreparacion": "180 minutos",
+    "porciones": 6,
+    "imagen": "/images/locro.jpeg",
+    "ingredientes": [
+      { "cantidad": "300", "unidad": "g", "nombre": "Maíz blanco partido" },
+      { "cantidad": "500", "unidad": "g", "nombre": "Zapallo" },
+      { "cantidad": "150", "unidad": "g", "nombre": "Panceta" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Chorizo colorado" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Porotos" }
+    ],
+    "pasos": [
+      "Hidratar maíz y porotos.",
+      "Cocinar con zapallo.",
+      "Agregar panceta y chorizo.",
+      "Hervir hasta espesar."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 4,
+    "titulo": "Asado Argentino",
+    "descripcion": "Clásico asado a la parrilla con vacío, costilla y chorizo.",
+    "categoria": "Platos Principales",
+    "dificultad": "Media",
+    "tiempoPreparacion": "150 minutos",
+    "porciones": 4,
+    "imagen": "/images/asadoargentino.jpg",
+    "ingredientes": [
+      { "cantidad": "1", "unidad": "kg", "nombre": "Costilla" },
+      { "cantidad": "1", "unidad": "kg", "nombre": "Vacío" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Chorizos" },
+      { "cantidad": "", "unidad": "a gusto", "nombre": "Sal gruesa" }
+    ],
+    "pasos": [
+      "Prender el fuego.",
+      "Colocar la carne con la grasa hacia abajo.",
+      "Cocinar lentamente a brasas.",
+      "Dar vuelta y terminar cocción."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 5,
+    "titulo": "Tallarines con Tuco",
+    "descripcion": "Pasta casera con tuco de carne y tomate.",
+    "categoria": "Pasta",
+    "dificultad": "Fácil",
+    "tiempoPreparacion": "40 minutos",
+    "porciones": 3,
+    "imagen": "/images/tallarinescontuco.webp",
+    "ingredientes": [
+      { "cantidad": "300", "unidad": "g", "nombre": "Tallarines" },
+      { "cantidad": "250", "unidad": "g", "nombre": "Carne picada" },
+      { "cantidad": "1", "unidad": "lata", "nombre": "Tomate triturado" }
+    ],
+    "pasos": [
+      "Saltear carne.",
+      "Agregar tomate.",
+      "Hervir pasta.",
+      "Mezclar y servir."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 6,
+    "titulo": "Ñoquis del 29",
+    "descripcion": "Ñoquis de papa tradicionales, suaves y esponjosos.",
+    "categoria": "Pasta",
+    "dificultad": "Fácil",
+    "tiempoPreparacion": "45 minutos",
+    "porciones": 3,
+    "imagen": "/images/noquis.jpg",
+    "ingredientes": [
+      { "cantidad": "600", "unidad": "g", "nombre": "Papas" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Harina" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Huevo" }
+    ],
+    "pasos": [
+      "Hervir papas y hacer puré.",
+      "Mezclar con harina y huevo.",
+      "Cortar los ñoquis.",
+      "Hervir hasta que floten."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 7,
+    "titulo": "Choripán",
+    "descripcion": "Clásico choripán argentino con chimichurri casero.",
+    "categoria": "Street Food",
+    "dificultad": "Fácil",
+    "tiempoPreparacion": "20 minutos",
+    "porciones": 2,
+    "imagen": "/images/choripan.webp",
+    "ingredientes": [
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Chorizos" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Pan francés" },
+      { "cantidad": "", "unidad": "a gusto", "nombre": "Chimichurri" }
+    ],
+    "pasos": [
+      "Cocinar los chorizos.",
+      "Abrir el pan.",
+      "Agregar chimichurri.",
+      "Servir caliente."
+    ],
+    "esFavorita": false
+  },
+  {
+    "id": 8,
+    "titulo": "Pastel de Papa",
+    "descripcion": "Carne picada con condimentos cubierta de puré gratinado.",
+    "categoria": "Platos Principales",
+    "dificultad": "Fácil",
+    "tiempoPreparacion": "60 minutos",
+    "porciones": 4,
+    "imagen": "/images/PasteldePapa.jpg",
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Carne picada" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Cebolla" },
+      { "cantidad": "6", "unidad": "unidades", "nombre": "Papas" },
+      { "cantidad": "1", "unidad": "chorrito", "nombre": "Leche" },
+      { "cantidad": "1", "unidad": "cda", "nombre": "Manteca" }
+    ],
+    "pasos": [
+      "Saltear la carne con cebolla.",
+      "Preparar puré.",
+      "Colocar carne en fuente.",
+      "Cubrir con puré y gratinar."
+    ],
+    "esFavorita": false
+  }
+]

@@ -1,7 +1,7 @@
 {
-  "name": "charity-website-react",
+  "name": "programacion-iv-comidas",
   "version": "1.0.0",
-  "description": "Página web de organización benéfica desarrollada con React",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -10,8 +10,13 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
     "react-scripts": "5.0.1"
   },
   "browserslist": {

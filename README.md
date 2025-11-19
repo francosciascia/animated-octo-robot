@@ -1,34 +1,59 @@
-# Proyecto Final - Página Web de Organización Benéfica
+# Trabajo Práctico – Aplicación de Recetas de Cocina
 
-## 📋 Descripción
-Página web completa para una organización benéfica desarrollada con HTML5 y CSS3. Incluye diseño responsive, múltiples secciones y optimización de UX.
+Aplicación React que muestra un catálogo de recetas y permite navegar hacia el detalle de cada una utilizando React Router DOM, Context API y Material-UI.
 
 ## 🚀 Características
-- **Diseño Responsive**: Adaptable a diferentes dispositivos
-- **Secciones Incluidas**:
-  - Hero con call-to-action
-  - Barra de estadísticas
-  - Campañas de apoyo
-  - Sobre nosotros
-  - Equipo de trabajo
-  - Testimoniales
-  - Footer completo
+- Listado de recetas con tarjetas responsive, chips informativos y acciones claras.
+- Vista de detalle con imagen destacada, ingredientes estructurados y pasos enumerados.
+- Context API para compartir el estado (recetas, loading y manejo de errores) en toda la app.
+- Datos locales en `src/data/recetas.json` (6 recetas completas).
+- Navegación con rutas `/`, `/recetas` y `/recetas/:id`.
+- Diseño responsive con componentes de Material-UI (Container, Grid, Card, Stack, List, etc.).
 
-## 🛠️ Tecnologías Utilizadas
-- HTML5
-- CSS3 (Grid Layout, Flexbox)
-- Diseño responsive
-- Optimización de imágenes
+## 🧱 Estructura Principal
+```
+src/
+├── App.jsx
+├── main.jsx
+├── components/
+│   ├── layout/Navbar.jsx
+│   └── recetas/
+│       ├── RecetaCard.jsx
+│       ├── RecetasList.jsx
+│       ├── RecetaDetalle.jsx
+│       └── IngredientesList.jsx
+├── contexts/RecetasContext.jsx
+├── data/recetas.json
+├── pages/
+│   ├── RecetasListPage.jsx
+│   └── RecetaDetallePage.jsx
+└── styles.css
+```
 
-## ⚠️ Notas del Desarrollo
-Durante el desarrollo se presentaron algunos desafíos con la implementación de CSS Grid Layout, especialmente en la sección de "Support Your Community" donde se requirió múltiples ajustes para lograr el posicionamiento correcto de los elementos.
+## 🛠️ Tecnologías
+- React 19
+- React Router DOM 7
+- Context API
+- Material-UI 7 + Emotion
 
-## 🌐 Enlaces
-- **Repositorio**: https://github.com/francosciascia/literate-octo-waddle
-- **Demo en vivo**: https://francosciascia.github.io/literate-octo-waddle
+## ▶️ Scripts Disponibles
+Instalar dependencias:
+```
+npm install
+```
 
-## 📝 Estado del Proyecto
-✅ **Todo listo. Proyecto final completado**
+Iniciar el entorno de desarrollo:
+```
+npm start
+```
+
+Construir para producción:
+```
+npm run build
+```
+
+## ✅ Estado
+Proyecto completo y listo para evaluación del Trabajo Práctico de Programación IV.
 
 ---
-*Desarrollado como proyecto final de desarrollo web*
+Desarrollado por Franco Sciascia 👨‍🍳
