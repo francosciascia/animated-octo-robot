@@ -1,25 +1,23 @@
-# 🍽️ Recetas Franco – Aplicación de Recetas de Cocina
+🍽️ Recetas Franco – Aplicación de Recetas de Cocina
 
-Aplicación web creada para el **Trabajo Práctico de Programación IV (UTN)**.  
-Permite explorar un catálogo de recetas, ver el detalle completo, filtrar, buscar y navegar entre páginas con un diseño moderno usando **Material UI**.
+Aplicación web creada para el Trabajo Práctico de Programación IV (UTN).
+Permite explorar un catálogo de recetas, ver el detalle completo, filtrar, buscar y navegar entre páginas con un diseño moderno usando Material UI.
 
-Desarrollado por **Franco Sciascia 👨‍🍳**.
+Desarrollado por Franco Sciascia 👨‍🍳.
 
----
+🚀 Funcionalidades Principales
 
-## 🚀 Funcionalidades Principales
-
-✔️ Listado de recetas con tarjetas responsivas  
-✔️ Vista de detalle con ingredientes y pasos  
-✔️ Carga global de datos con Context API  
-✔️ Navegación con React Router DOM  
-✔️ Buscador de recetas por título  
-✔️ Filtros por categoría y dificultad  
-✔️ Modo oscuro/claro  
-✔️ Botón “Compartir”  
-✔️ Página de Inicio  
-✔️ Footer informativo  
-✔️ 100% responsive  
+✔️ Listado de recetas con tarjetas responsivas
+✔️ Vista de detalle con ingredientes y pasos
+✔️ Carga global de datos con Context API
+✔️ Navegación con React Router DOM
+✔️ Buscador de recetas por título
+✔️ Filtros por categoría y dificultad
+✔️ Modo oscuro / claro
+✔️ Botón Compartir Receta
+✔️ Página de Inicio personalizada
+✔️ Footer informativo
+✔️ 100% responsive
 
 ---
 
@@ -48,38 +46,33 @@ src/
 │ └── recetas.json
 └── styles.css
 
-yaml
-Copiar código
+🛠️ Tecnologías Utilizadas
 
----
-
-## 🛠️ Tecnologías Utilizadas
-
-- React 19  
-- React Router DOM 7  
-- Material UI 7  
-- Context API  
-- Vite  
-- JavaScript moderno  
-
----
+React 19
+React Router DOM 7
+Material UI 7
+Context API
+Vite
+JavaScript moderno ES2023
 
 ## ▶️ Cómo Ejecutarlo
 
 ### 1️⃣ Instalar dependencias
 ```bash
 npm install
+```
 2️⃣ Iniciar el entorno de desarrollo
-bash
+```bash
 Copiar código
 npm run dev
 Abrir en el navegador:
 http://localhost:5173
-
+```
 3️⃣ Build de producción
-bash
+```bash
 Copiar código
 npm run build
+```
 📸 Capturas de Pantalla
 🏠 Página de Inicio
 <img src="./screenshots/inicio.png" width="600" />
@@ -87,15 +80,25 @@ npm run build
 <img src="./screenshots/oscuro.png" width="600" />
 🍽️ Listado de Recetas
 <img src="./screenshots/recetotas.png" width="600" />
-📄 Detalle de una Receta
+📄 Detalle de Receta
 <img src="./screenshots/receta.png" width="600" />
-📱 Diseño Responsive
+📱 Vista Responsive
 <img src="./screenshots/responsive.png" width="600" />
 📦 Estado del Proyecto
-✔️ Completo y funcional
-✔️ Cumple todos los requisitos del TP
-✔️ Incluye funcionalidades extra
 
+✔ Completo
+✔ Cumple requisitos
+✔ Incluye extras
+✔ Listo para ser entregado
+
+👨‍💻 Autor
+
+Franco Sciascia
+GitHub: https://github.com/francosciascia
+
+📄 Licencia
+
+Proyecto de uso académico.
 👨‍💻 Autor
 Franco Sciascia
 GitHub: https://github.com/francosciascia
