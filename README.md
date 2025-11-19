@@ -56,4 +56,15 @@ npm run build
 Proyecto completo y listo para evaluación del Trabajo Práctico de Programación IV.
 
 ---
+
+## Screenshots
+
+### Página de Inicio
+![Inicio](public/screenshots/inicio.png)
+
+### Listado de Recetas
+![Listado de recetas](public/screenshots/listado-recetas.png)
+
+### Detalle de Receta
+![Detalle de receta](public/screenshots/detalle-receta.png)
 Desarrollado por Franco Sciascia 👨‍🍳
