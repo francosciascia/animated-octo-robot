@@ -85,23 +85,3 @@ npm run build
 📱 Vista Responsive
 <img src="./screenshots/responsive.png" width="600" />
 📦 Estado del Proyecto
-
-✔ Completo
-✔ Cumple requisitos
-✔ Incluye extras
-✔ Listo para ser entregado
-
-👨‍💻 Autor
-
-Franco Sciascia
-GitHub: https://github.com/francosciascia
-
-📄 Licencia
-
-Proyecto de uso académico.
-👨‍💻 Autor
-Franco Sciascia
-GitHub: https://github.com/francosciascia
-
-📄 Licencia
-Proyecto de uso académico.
